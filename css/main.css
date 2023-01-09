@@ -1,0 +1,85 @@
+.firstlayer {
+  width: 100vw;
+  height: 890px;
+  margin-top: 150px;
+  background-image: linear-gradient(
+    to right,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #bdf3ff,
+    #62e3ff
+  );
+}
+.firstimg {
+  width: 766px;
+  height: 470px;
+  margin-left: 30px;
+  margin-top: 100px;
+}
+.firstimg img {
+  width: 120%;
+}
+.secondlayer {
+  width: 1920px;
+  height: 1080px;
+  background-image: url(../image/Rectangle\ 11.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.secondimg {
+  width: 766px;
+  height: 470px;
+  margin-left: 100px;
+  margin-top: 250px;
+}
+.secondimg img {
+  width: 70%;
+}
+.secondtext {
+  width: 525px;
+  height: 470px;
+  margin-left: 65%;
+}
+.secondtext p {
+  font-size: 17pt;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 700;
+  color: #1d4f5a;
+}
+.thirdlayer {
+  margin-top: 200px;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.thirdlayer h2 {
+  font-size: 32pt;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 700;
+  color: #1d4f5a;
+  margin-left: 185px;
+}
+.probox {
+  display: flex;
+  justify-content: center;
+}
+.imgbox {
+  width: 346px;
+  height: 459px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.imgbox img {
+  width: 100%;
+}
+.prolayer {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
