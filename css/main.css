@@ -1,3 +1,12 @@
+body {
+  overflow-x: hidden;
+}
+.row {
+  margin-top: 0px;
+  color: #ffffff;
+  width: 100vw;
+  height: 100px;
+}
 .firstlayer {
   width: 100vw;
   height: 890px;
@@ -35,18 +44,24 @@
   margin-top: 250px;
 }
 .secondimg img {
-  width: 70%;
+  width: 60%;
+  margin-left: 150px;
+  margin-top: 40px;
 }
 .secondtext {
-  width: 525px;
-  height: 470px;
-  margin-left: 65%;
+  width: 550px;
+  height: 200px;
+  margin-left: 66%;
+  margin-bottom: 50px;
 }
 .secondtext p {
-  font-size: 17pt;
+  font-size: 15pt;
+  letter-spacing: 6px;
+  line-height: 30px;
   font-family: "Noto Sans TC", sans-serif;
   font-weight: 700;
   color: #1d4f5a;
+  margin-right: 100pt;
 }
 .thirdlayer {
   margin-top: 200px;
@@ -60,20 +75,85 @@
   font-family: "Noto Sans TC", sans-serif;
   font-weight: 700;
   color: #1d4f5a;
-  margin-left: 185px;
+  margin-left: 203px;
 }
+
+.material-symbols-outlined {
+  font-size: 45px;
+  color: #ffffff;
+  right: 0px;
+  margin-left: 298px;
+  margin-top: 5px;
+}
+
 .probox {
   display: flex;
   justify-content: center;
 }
 .imgbox {
+  background-image: url(../image/Group\ 1.png);
+  background-repeat: no-repeat;
   width: 346px;
   height: 459px;
   margin-right: 60px;
   margin-left: 60px;
 }
-.imgbox img {
-  width: 100%;
+.imgboxone {
+  background-image: url(../image/Group\ 2.png);
+  background-repeat: no-repeat;
+  width: 346px;
+  height: 459px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.imgboxtwo {
+  background-image: url(../image/Group\ 3.png);
+  background-repeat: no-repeat;
+  width: 346px;
+  height: 459px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.imgboxthree {
+  background-image: url(../image/Group\ 4.png);
+  background-repeat: no-repeat;
+  width: 346px;
+  height: 459px;
+  margin-top: 50px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.imgboxfour {
+  background-image: url(../image/Group\ 5.png);
+  background-repeat: no-repeat;
+  width: 346px;
+  height: 459px;
+  margin-top: 50px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.imgboxfour span {
+  font-size: 45px;
+  color: #4995a6;
+  right: 0px;
+  margin-left: 298px;
+  margin-top: 5px;
+}
+.imgboxfive {
+  background-image: url(../image/Group\ 6.png);
+  background-repeat: no-repeat;
+  width: 346px;
+  height: 459px;
+  margin-top: 50px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.imgboxfive span {
+  font-size: 45px;
+  color: #4995a6;
+  right: 0px;
+  margin-left: 298px;
+  margin-top: 5px;
 }
 .prolayer {
   width: 100vw;
@@ -82,4 +162,24 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 50px;
+}
+.footer {
+  width: 100vw;
+  height: 180px;
+  background-color: #4995a6;
+  margin-top: 200px;
+  border-radius: 12pt;
+}
+.footerp p {
+  color: #ffffff;
+}
+.footerp {
+  margin-left: 25px;
+}
+.material-symbols-outlined {
+  cursor: pointer;
+}
+.fivelayer {
+  margin-top: 80px;
+  width: 1920px;
 }

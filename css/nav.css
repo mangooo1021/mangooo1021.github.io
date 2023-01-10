@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* font-set */
+
 .tit1 {
   font-size: 37pt;
   font-family: "Noto Sans TC", sans-serif;
@@ -64,8 +65,8 @@ body {
   display: flex;
   position: fixed;
   width: 100vw;
-  height: 5vw;
-  top: 2vw;
+  height: 6vw;
+  top: 0;
   z-index: 99;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -145,14 +146,6 @@ body {
   background-color: #1f1f1f;
 }
 
-@media (max-width: 920px) {
-  .nav .row .menu-sm {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
 .nav .row .menu {
   width: 100%;
   -ms-flex-negative: unset;
@@ -211,13 +204,6 @@ body {
   .nav .row .menu {
     display: none;
   }
-}
-
-footer {
-  width: 1600px;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
 
 .downloud-bar {
@@ -314,22 +300,3 @@ footer {
   color: #171717;
   background-color: #efefef;
 }
-
-.copyright-bar {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border-radius: 22px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 10vh 20pt 20pt 20pt;
-  color: #8e8e93;
-  background-color: #171717;
-}
-/*# sourceMappingURL=nav.css.map */
