@@ -62,7 +62,30 @@ header i {
   text-align: center;
   margin-top: 25px;
 }
+.sidebar button {
+  display: block;
+  padding: 15px 40px;
+  margin-left: 342.5px;
+  margin-top: -30px;
+}
+#addContact {
+  color: #ffff;
+  font-size: 12pt;
+  background-color: #57b0c4;
+  cursor: pointer;
+  border-radius: 15px;
+  border: solid 2px #57b0c4;
+}
+#addContact:hover {
+  color: #1d4f5a;
+  font-size: 12pt;
+  background: rgba(154, 255, 252, 0.932);
+  box-shadow: 0px 0px 20px rgba(13, 241, 218, 0.932);
+  border: solid 2px #85e1f5;
+}
+
 .sidebar h2 {
+  margin-right: 8px;
   color: #1d4f5a;
 }
 .sidebar h3 {
@@ -134,8 +157,8 @@ header i {
   cursor: pointer;
   color: white;
 }
-button:hover {
-  background-color: #333;
+#root button:hover {
+  background-color: #1d4f5a;
 }
 .cart-item {
   display: flex;

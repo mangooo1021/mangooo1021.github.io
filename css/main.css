@@ -40,8 +40,9 @@ body {
 .secondimg {
   width: 766px;
   height: 470px;
-  margin-left: 100px;
-  margin-top: 250px;
+  justify-content: center;
+  margin-left: 460px;
+  margin-top: 235px;
 }
 .secondimg img {
   width: 60%;
@@ -51,12 +52,12 @@ body {
 .secondtext {
   width: 550px;
   height: 200px;
-  margin-left: 66%;
-  margin-bottom: 50px;
+  margin-left: 71%;
+  margin-top: 110px;
 }
 .secondtext p {
-  font-size: 15pt;
-  letter-spacing: 6px;
+  font-size: 12pt;
+  letter-spacing: 5.5px;
   line-height: 30px;
   font-family: "Noto Sans TC", sans-serif;
   font-weight: 700;
